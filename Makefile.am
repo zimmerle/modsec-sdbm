@@ -1,8 +1,8 @@
 
 
-bin_PROGRAMS = modsec-sdbm
+bin_PROGRAMS = modsec-sdbm-util
 
-modsec_sdbm_SOURCES = modsec-sdbm.c
+modsec_sdbm_SOURCES = modsec-sdbm-util.c
 
 modsec_sdbm_CFLAGS = @APR_CFLAGS@ \
     @APU_CFLAGS@
